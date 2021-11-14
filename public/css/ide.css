@@ -1,0 +1,44 @@
+.btn {
+    background-color: #13c100;
+    border: 0;
+    border-radius: 5%;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #cecece;
+    transition: all ease-in 0s;
+}
+
+body {
+    background-color: #111;
+}
+
+.selector {
+    border: 1px grey dashed;
+    border-radius: 5%;
+    color:azure;
+    background-color: #131313;
+
+}
+
+.selector > option {
+    border: 2px;
+    border-style:groove;
+    border-color:#1c1c1c;
+    border-radius: 5%;
+    background-color:#111;
+    color: #cecece;
+    animation: all 5s ease-in;
+}
+
+.selector > option:hover {
+    border-radius: 5%;
+    background-color:#cecece;
+    color: #111;
+}
+
+.editor1 {
+    align-content: left;
+    display: inline;
+}
